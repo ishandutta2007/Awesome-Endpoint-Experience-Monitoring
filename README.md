@@ -1,3 +1,100 @@
 # Awesome-Endpoint-Experience-Monitoring
 
-Top Endpoint Experience Monitoring Tools EcosystemCurated List of SaaS Products & Open-Source GitHub ProjectsFocused on Digital Employee Experience (DEX), Endpoint Performance Analytics, User Sentiment & Proactive IT OperationsLast updated: September 2026This repository tracks notable SaaS platforms and open-source projects for Endpoint Experience Monitoring. These tools help IT teams monitor device performance, application responsiveness, boot times, user sentiment, and overall digital employee experience (DEX) across physical, virtual, and cloud environments.Examples include ControlUp, Nexthink, Lakeside SysTrack, 1E, DexCare, Omnissa Workspace ONE Experience, Tanium Experience, Aternity, Riverbed DEM, and SysTrack (the category leaders).Open-source emphasis: This section is heavily expanded with every major active project for self-hosting, custom endpoint telemetry pipelines, and transparent user experience analytics — ideal for IT operations teams that need deep visibility into endpoint health without per-device SaaS licensing costs.Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.Table of ContentsSaaS/Hosted PlatformsOpen-Source GitHub ProjectsHow to ContributeDisclaimerSaaS/Hosted PlatformsControlUpDigital Employee Experience (DEX) platform for proactive IT operations. Monitors endpoint health, application performance, and user experience across physical and virtual desktops with real-time remediation capabilities.NexthinkDigital employee experience platform combining endpoint telemetry, sentiment analysis, and automation. Provides real-time visibility into device health, application usage, and user satisfaction with AI-powered recommendations.Lakeside SysTrackAIOps and DEX platform capturing tens of thousands of data points across 13 KPIs including CPU, memory, disk, network, latency, and startup time. The SysTrack agent collects data every 15 seconds with minimal footprint (12MB disk, <1% CPU), storing three days of local data for deep diagnostics. Available as on-premises or SysTrack Cloud Edition (Azure-hosted with ISO27001 and SOC 1/2/3 compliance) -3-7-9.1EDigital Employee Experience platform (now TeamViewer DEX) providing real-time device telemetry, automated remediation, and sustainability metrics. Tracks boot performance, user sentiment, and carbon footprint across endpoints -1.DexCareDEX platform focused on healthcare IT environments. Monitors clinical application performance and endpoint health to ensure caregiver productivity.Omnissa Workspace ONE ExperienceDigital workspace platform with DEX capabilities (formerly VMware Workspace ONE). Provides endpoint analytics, user experience scoring, and proactive remediation across virtual and physical desktops.Tanium ExperienceEndpoint management and experience monitoring module within the Tanium platform. Provides real-time endpoint visibility and DEX metrics at enterprise scale.AternityApplication Performance Monitoring (APM) and DEX platform. Traces every user transaction across end users, applications, networks, and cloud-native infrastructure with second-by-second system metrics. Stores complete transaction records for reconstructing past incidents. Available as SaaS and on-premises -2-6.Riverbed DEMDigital Experience Management platform (now Riverbed Aternity). Provides end-to-end visibility across endpoint, network, and application performance for unified DEX insights -6.Open-Source GitHub ProjectsBasic RUMOpen-source Real User Monitoring (RUM) tool for visualizing and analyzing performance trends. Integrates Boomerang JS for data collection, ClickHouse for storage, and Grafana for visualization. Handles high-traffic websites with customisable dashboards and sophisticated Core Web Vitals monitoring. Requires significant technical expertise to set up and maintain in production -11.Sitespeed.ioMIT-licensed performance monitoring suite measuring web performance with real browsers. Includes Browsertime for timing metrics, Coach for page analysis, PageXray for resource inspection, and Throttle for network simulation. Native Grafana/Graphite integration with pre-configured dashboards. Supports Android testing via USB and Docker deployment. Tracks Core Web Vitals (LCP, CLS, FID) and CPU metrics. Zero tracking — all data stays on your infrastructure -12.VibesOpen-source WordPress plugin for truthful user experience and browsing performance monitoring. Fully autonomous — no external services, no API keys, works on any hosting including staging and intranets. Reports navigation performance KPIs, network timelines, resource details, and Web Vitals (LCP, FID, CLS, FCP, TTFB). Segments data by user type, channel, country, and device class. Part of the PerfOps One suite -4-8.OpenObserveOpen-source observability platform providing logs, metrics, traces, and RUM capabilities. Cost-efficient scaling architecture with intuitive GUI. Community-driven development with real-time observability for developers and DevOps teams -13.OpenQoEOpen-source video Quality of Experience (QoE) monitoring platform. JavaScript SDK for video players (Dash.js, HLS.js, HTML5), Cloudflare Worker ingestion, and production-ready Grafana dashboards. Monitors VST, rebuffering, errors, and engagement metrics at scale. Uses OpenTelemetry pipeline (Mimir, Loki, Tempo) with 25 pre-aggregated metrics and 18 production alerts -10.UmamiPrivacy-friendly, self-hostable web analytics platform (version 3.1.0). Features configurable dashboards ("Boards"), session replays via rrweb, and Core Web Vitals tracking (LCP, INP, CLS, FCP, TTFB) directly in the visitor's browser. Zero third-party tracking. 51 language translations, Node.js 22 minimum, Prisma 7. Alternative to Google Analytics for teams wanting data sovereignty -14-16.Additional Strong Open-Source OptionsEndpoint Telemetry Collection: osquery (SQL-powered endpoint visibility), Wazuh (security-focused endpoint monitoring), Fleet (osquery management platform).Application Performance: OpenTelemetry (vendor-neutral instrumentation), Grafana Faro (frontend RUM SDK), OpenSearch Observability (logs, metrics, traces).DEX Data Aggregation: EUCORA 1E Integration (bridges 1E DEX data into unified dashboards with device health, boot performance, sentiment, and sustainability metrics) -1.Real User Monitoring: Clarity (free Microsoft RUM, non-commercial), Boomerang (open-source RUM library, foundation for Basic RUM).Frameworks for building custom systems: Combine osquery or Wazuh for endpoint telemetry, OpenTelemetry for unified instrumentation, ClickHouse or OpenObserve for storage, and Grafana for dashboards. Add Basic RUM or Grafana Faro for user-side performance data and Umami for privacy-friendly session analytics.How to ContributeFork the repo.Add/edit entries in README.md (follow existing format).Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.Submit PR with a short explanation.Star the repo if you find it useful!DisclaimerThis is a community-curated list — not exhaustive and not an endorsement.Endpoint experience monitoring tools collect sensitive device and user data; ensure compliance with privacy regulations and employee monitoring laws.Self-hosted open-source solutions require significant operational investment in telemetry pipelines, storage infrastructure, and ongoing maintenance -11.Made for IT operations teams, DEX engineers, endpoint administrators, and digital workplace strategists.Let's make endpoint experience monitoring more open, transparent, and user-focused.
+## Top Endpoint Experience Monitoring Tools Ecosystem
+
+**Curated List of SaaS Products & Open-Source GitHub Projects**
+*Focused on Digital Employee Experience (DEX), Endpoint Performance Analytics, User Sentiment & Proactive IT Operations*
+**Last updated: September 2026**
+
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Endpoint Experience Monitoring**. These tools help IT teams monitor device performance, application responsiveness, boot times, user sentiment, and overall digital employee experience (DEX) across physical, virtual, and cloud environments.
+
+**Examples** include ControlUp, Nexthink, Lakeside SysTrack, 1E, DexCare, Omnissa Workspace ONE Experience, Tanium Experience, Aternity, Riverbed DEM, and SysTrack (the category leaders).
+
+**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom endpoint telemetry pipelines, and transparent user experience analytics — ideal for IT operations teams that need deep visibility into endpoint health without per-device SaaS licensing costs.
+
+Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+
+## Table of Contents
+
+- [SaaS/Hosted Platforms](#saas-hosted-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
+
+## SaaS/Hosted Platforms
+
+- **[ControlUp](https://www.controlup.com/)**
+  Digital Employee Experience (DEX) platform for proactive IT operations. Monitors endpoint health, application performance, and user experience across physical and virtual desktops with real-time remediation capabilities.
+
+- **[Nexthink](https://www.nexthink.com/)**
+  Digital employee experience platform combining endpoint telemetry, sentiment analysis, and automation. Provides real-time visibility into device health, application usage, and user satisfaction with AI-powered recommendations.
+
+- **[Lakeside SysTrack](https://www.lakesidesoftware.com/)**
+  AIOps and DEX platform capturing tens of thousands of data points across 13 KPIs including CPU, memory, disk, network, latency, and startup time. The SysTrack agent collects data every 15 seconds with minimal footprint (12MB disk, <1% CPU), storing three days of local data for deep diagnostics. Available as on-premises or SysTrack Cloud Edition (Azure-hosted with ISO27001 and SOC 1/2/3 compliance) .
+
+- **[1E](https://www.1e.com/)**
+  Digital Employee Experience platform (now TeamViewer DEX) providing real-time device telemetry, automated remediation, and sustainability metrics. Tracks boot performance, user sentiment, and carbon footprint across endpoints .
+
+- **[DexCare](https://www.dexcare.com/)**
+  DEX platform focused on healthcare IT environments. Monitors clinical application performance and endpoint health to ensure caregiver productivity.
+
+- **[Omnissa Workspace ONE Experience](https://www.omnissa.com/)**
+  Digital workspace platform with DEX capabilities (formerly VMware Workspace ONE). Provides endpoint analytics, user experience scoring, and proactive remediation across virtual and physical desktops.
+
+- **[Tanium Experience](https://www.tanium.com/)**
+  Endpoint management and experience monitoring module within the Tanium platform. Provides real-time endpoint visibility and DEX metrics at enterprise scale.
+
+- **[Aternity](https://www.aternity.com/)**
+  Application Performance Monitoring (APM) and DEX platform. Traces every user transaction across end users, applications, networks, and cloud-native infrastructure with second-by-second system metrics. Stores complete transaction records for reconstructing past incidents. Available as SaaS and on-premises .
+
+- **[Riverbed DEM](https://www.riverbed.com/)**
+  Digital Experience Management platform (now Riverbed Aternity). Provides end-to-end visibility across endpoint, network, and application performance for unified DEX insights .
+
+## Open-Source GitHub Projects
+
+- **[Basic RUM](https://basicrum.com/)**
+  Open-source Real User Monitoring (RUM) tool for visualizing and analyzing performance trends. Integrates Boomerang JS for data collection, ClickHouse for storage, and Grafana for visualization. Handles high-traffic websites with customisable dashboards and sophisticated Core Web Vitals monitoring. Requires significant technical expertise to set up and maintain in production .
+
+- **[Sitespeed.io](https://github.com/sitespeedio/sitespeed.io)**
+  MIT-licensed performance monitoring suite measuring web performance with real browsers. Includes Browsertime for timing metrics, Coach for page analysis, PageXray for resource inspection, and Throttle for network simulation. Native Grafana/Graphite integration with pre-configured dashboards. Supports Android testing via USB and Docker deployment. Tracks Core Web Vitals (LCP, CLS, FID) and CPU metrics. Zero tracking — all data stays on your infrastructure .
+
+- **[Vibes](https://wordpress.org/plugins/vibes/)**
+  Open-source WordPress plugin for truthful user experience and browsing performance monitoring. Fully autonomous — no external services, no API keys, works on any hosting including staging and intranets. Reports navigation performance KPIs, network timelines, resource details, and Web Vitals (LCP, FID, CLS, FCP, TTFB). Segments data by user type, channel, country, and device class. Part of the PerfOps One suite .
+
+- **[OpenObserve](https://github.com/openobserve/openobserve)**
+  Open-source observability platform providing logs, metrics, traces, and RUM capabilities. Cost-efficient scaling architecture with intuitive GUI. Community-driven development with real-time observability for developers and DevOps teams .
+
+- **[OpenQoE](https://github.com/openqoe/openqoe-dev)**
+  Open-source video Quality of Experience (QoE) monitoring platform. JavaScript SDK for video players (Dash.js, HLS.js, HTML5), Cloudflare Worker ingestion, and production-ready Grafana dashboards. Monitors VST, rebuffering, errors, and engagement metrics at scale. Uses OpenTelemetry pipeline (Mimir, Loki, Tempo) with 25 pre-aggregated metrics and 18 production alerts .
+
+- **[Umami](https://github.com/umami-software/umami)**
+  Privacy-friendly, self-hostable web analytics platform (version 3.1.0). Features configurable dashboards ("Boards"), session replays via rrweb, and Core Web Vitals tracking (LCP, INP, CLS, FCP, TTFB) directly in the visitor's browser. Zero third-party tracking. 51 language translations, Node.js 22 minimum, Prisma 7. Alternative to Google Analytics for teams wanting data sovereignty .
+
+### Additional Strong Open-Source Options
+
+- **Endpoint Telemetry Collection**: **osquery** (SQL-powered endpoint visibility), **Wazuh** (security-focused endpoint monitoring), **Fleet** (osquery management platform).
+- **Application Performance**: **OpenTelemetry** (vendor-neutral instrumentation), **Grafana Faro** (frontend RUM SDK), **OpenSearch Observability** (logs, metrics, traces).
+- **DEX Data Aggregation**: **EUCORA 1E Integration** (bridges 1E DEX data into unified dashboards with device health, boot performance, sentiment, and sustainability metrics) .
+- **Real User Monitoring**: **Clarity** (free Microsoft RUM, non-commercial), **Boomerang** (open-source RUM library, foundation for Basic RUM).
+
+**Frameworks for building custom systems**: Combine **osquery** or **Wazuh** for endpoint telemetry, **OpenTelemetry** for unified instrumentation, **ClickHouse** or **OpenObserve** for storage, and **Grafana** for dashboards. Add **Basic RUM** or **Grafana Faro** for user-side performance data and **Umami** for privacy-friendly session analytics.
+
+## How to Contribute
+
+1. Fork the repo.
+2. Add/edit entries in `README.md` (follow existing format).
+3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
+4. Submit PR with a short explanation.
+
+Star the repo if you find it useful!
+
+## Disclaimer
+
+- This is a **community-curated** list — not exhaustive and not an endorsement.
+- Endpoint experience monitoring tools collect sensitive device and user data; ensure compliance with privacy regulations and employee monitoring laws.
+- Self-hosted open-source solutions require significant operational investment in telemetry pipelines, storage infrastructure, and ongoing maintenance .
+
+---
+
+**Made for IT operations teams, DEX engineers, endpoint administrators, and digital workplace strategists.**
+Let's make endpoint experience monitoring more open, transparent, and user-focused.
