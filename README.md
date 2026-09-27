@@ -54,7 +54,7 @@ The global **Digital Employee Experience (DEX) & Endpoint Experience Monitoring 
 Open-source endpoint and user experience monitoring projects provide data sovereignty, zero licensing fees, and custom telemetry pipelines. 
 
 > [!TIP]
-> The list below is sorted by **GitHub Stars_Count** (descending). Click the Stars_Badges to visit the stargazers page for each repository.
+> The list below is sorted by **GitHub_Stars_Count** (descending). Click the Stars_Badges to visit the stargazers page for each repository.
 
 - ⚡ **[Netdata](https://github.com/netdata/netdata)** [<img src="https://img.shields.io/github/stars/netdata/netdata?style=social&color=white" alt="Netdata Stars"/>](https://github.com/netdata/netdata/stargazers)
   High-fidelity, real-time infrastructure and endpoint performance monitoring agent. Collects thousands of metrics per second with per-second granularity and minimal CPU usage.
