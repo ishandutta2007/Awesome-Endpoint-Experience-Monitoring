@@ -36,7 +36,6 @@
         animation: float 4s ease-in-out infinite alternate;
       }
       .node-2 { animation-delay: 1.5s; }
-      .node-3 { animation-delay: 2.5s; }
 
       @keyframes dash {
         to {
@@ -90,7 +89,7 @@
   <g text-anchor="middle">
     <!-- Top Badge -->
     <rect x="440" y="35" width="320" height="28" rx="14" fill="#1e293b" stroke="#6366f1" stroke-width="1.5"/>
-    <text x="600" y="54" fill="#a5b4fc" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">CURATED DEX & EEM ECOSYSTEM</text>
+    <text x="600" y="54" fill="#a5b4fc" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">CURATED DEX &amp; EEM ECOSYSTEM</text>
 
     <!-- Main Title -->
     <text x="600" y="125" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="44" font-weight="800" letter-spacing="-0.5">
@@ -99,22 +98,22 @@
 
     <!-- Subtitle -->
     <text x="600" y="170" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="400">
-      Digital Employee Experience (DEX), Telemetry Pipelines & Endpoint Performance Analytics
+      Digital Employee Experience (DEX), Telemetry Pipelines &amp; Endpoint Performance Analytics
     </text>
 
-    <!-- Category Pills -->
-    <g transform="translate(360, 205)">
-      <!-- Pill 1 -->
-      <rect x="0" y="0" width="130" height="32" rx="16" fill="#312e81" fill-opacity="0.8" stroke="#6366f1" stroke-width="1"/>
-      <text x="65" y="21" fill="#c7d2fe" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">🖥️ DEX Platforms</text>
+    <!-- Category Badges -->
+    <g transform="translate(330, 205)">
+      <!-- Badge 1 -->
+      <rect x="0" y="0" width="160" height="32" rx="16" fill="#312e81" stroke="#6366f1" stroke-width="1"/>
+      <text x="80" y="21" fill="#c7d2fe" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">DEX Platforms</text>
 
-      <!-- Pill 2 -->
-      <rect x="145" y="0" width="180" height="32" rx="16" fill="#4c1d95" fill-opacity="0.8" stroke="#a855f7" stroke-width="1"/>
-      <text x="235" y="21" fill="#e9d5ff" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">📊 Open-Source Telemetry</text>
+      <!-- Badge 2 -->
+      <rect x="175" y="0" width="190" height="32" rx="16" fill="#4c1d95" stroke="#a855f7" stroke-width="1"/>
+      <text x="270" y="21" fill="#e9d5ff" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">Open-Source Telemetry</text>
 
-      <!-- Pill 3 -->
-      <rect x="340" y="0" width="140" height="32" rx="16" fill="#831843" fill-opacity="0.8" stroke="#ec4899" stroke-width="1"/>
-      <text x="410" y="21" fill="#fbcfe8" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">⚡ Real User Monitoring</text>
+      <!-- Badge 3 -->
+      <rect x="380" y="0" width="170" height="32" rx="16" fill="#831843" stroke="#ec4899" stroke-width="1"/>
+      <text x="465" y="21" fill="#fbcfe8" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">Real User Monitoring</text>
     </g>
   </g>
 </svg>
